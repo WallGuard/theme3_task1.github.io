@@ -1,0 +1,339 @@
+*, ::before, ::after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0px;
+}
+
+.wrap {
+    max-width: 1260px;
+    width: 100%;
+    background: #FFFFFF;;
+    margin: auto;
+    border-top: 5px solid #9B51E0;
+}
+
+.header {
+    margin-left: 148px;
+    margin-right: 132px;
+    position: absolute;
+    max-width: 980px;
+    height: 508px;
+    top: 0px;
+}
+
+.logo {
+
+}
+
+.logo_yellow-box {
+    position: absolute;
+    width: 50px;
+    height: 48px;
+    margin-left: 1px;
+    margin-top: 30px;
+
+    background: #FFFFFF;
+    border: 3px solid #FFC740;
+    box-sizing: border-box;
+}
+
+.logo_text {
+    position: absolute;
+    margin-left: 26px;
+    margin-top: 41px;
+    background-color: #FFFFFF;
+
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.search {
+    width: 201px;
+    height: 33px;
+    margin-left: 77.5%;
+    margin-top: 40px;
+    box-sizing: border-box;
+    background: #FFFFFF;
+    border: 1px solid #6D3D99;
+}
+
+.search_input {
+    width: 159px;
+    height: 31px;
+    border: none;
+    outline: none;
+    background: #FFFFFF;
+}
+
+.search_btn {
+    position: absolute;
+    width: 40px;
+    height: 31px;
+    border: none;
+    background: #9B51E0;
+
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+}  
+
+.articles {
+    margin-top: 16px;
+}
+
+.list {
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+}
+
+.article {
+    display: inline-block;
+    text-align: center;
+    margin-right: -5px;
+    width: 12.5%;
+    height: 47px;
+    background: #FFFFFF;
+}
+
+.link {
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    margin-top: 16px;
+
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+
+    color: #050505;
+
+}
+
+.home {
+    background: #FFC740;
+    margin-left: 1px;
+}
+
+.chosen {
+font-weight: bold;
+color: #FFFFFF;
+}
+
+
+.frame {
+    position: relative;
+    display: inline-block;
+    height: 332px;
+    width: 980px;
+    margin-top: 16px
+}
+
+.img-field {
+    display: inline-block;
+    position: absolute;
+    height: 332px;
+    width: 98%;
+    background: url(./img/Mountains-and-hills-julian-alps.jpg)
+}
+
+.insign_1 {
+    position: absolute;
+    width: 509px;
+    height: 150px;
+    margin-left: 42px;
+    margin-top: 18px;
+
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 64px;
+    line-height: 75px;
+    color: #FFC740;
+}
+
+.sign_2 {
+    position: absolute;
+    width: 451px;
+    margin-top: 175px;
+    margin-left: 42px;
+
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+}
+
+.read_btn {
+    position: absolute;
+    list-style: none;
+    width: 125px;
+    height: 34px;
+    margin-top: 262px;
+    margin-left: 42px;
+    text-align: center;
+    background: #6D3D99;
+}
+
+.read_link {
+    display: inline-block;
+    margin-top: 10px;
+    text-decoration: none;
+
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+}
+
+.content_1 {
+    display: block;
+    max-width: 980px;
+    margin-left: 159px;
+    margin-top: 516px;
+}
+
+.item {
+    display: inline-block;
+    width: 47%;
+    height: 200px;
+    margin-right: 20px;
+}
+
+.color-line {
+    position: absolute;
+    width: 100%;
+    max-width: 462px;
+    height: 16px;
+
+background: #9B51E0;
+}
+.asl {
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 16px;
+    padding-left: 4px;
+    padding-right: 6px;
+    background-color: #FFFFFF;
+    height: 17px;
+
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    color: #000000;
+}
+
+.foto {
+    position: absolute;
+    margin-top: 32px;
+    width: 138px;
+    height: 137px;
+    padding: 2px;
+    border: 2px solid #FFC740;
+}
+
+.item-text {
+    margin-left: 172px;
+    margin-top: 32px;
+    max-width: 300px;
+    letter-spacing: 0.007em;
+
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: justify;
+    color: #000000;
+}
+
+.first_line {
+}
+
+.line-2 {
+       width: 454px;
+       background: #FFC740;
+}
+
+.item-2 {
+    width: 30%;
+}
+
+.item-text-2 {
+    margin-left: 0;
+}
+
+.cline_2 {
+    width: 27%;
+    max-width: 295px;
+}
+
+.clients-bottom {
+    max-width: 900px;
+}
+
+.clients-header {
+
+}
+
+.cline_3 {
+    width: 100%;
+    max-width: 928px;
+}
+
+.clients-img {
+    margin-top: 24px;
+    width: 100%;
+    max-width: 928px;
+    display: inline-block;
+    text-align: center;
+}
+
+.clients-photo {
+    display: inline-block;
+    margin-left: 16px;
+}
+
+.bottom {
+    position: absolute;
+    margin-top: 32px;
+    width: 1260px;
+    max-width: 1260px;
+    height: 115px;
+    text-align: center;
+    background: #6D3D99;
+
+}
+
+.lds-wrap {
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 45%;
+}
+
+.lodoss {
+    text-decoration: none;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    color:white;
+
+}
