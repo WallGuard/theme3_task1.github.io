@@ -8,7 +8,7 @@ body {
 
 .wrap {
     max-width: 1260px;
-    width: 100%;
+    width: 100%;item
     background: #FFFFFF;;
     margin: auto;
     border-top: 5px solid #9B51E0;
@@ -57,7 +57,7 @@ body {
     float: right;
     width: 201px;
     height: 33px;
-    margin-top: 40px;
+    margin-top: 35px;
     margin-right: 1%;
     box-sizing: border-box;
     background: #FFFFFF;
@@ -281,17 +281,62 @@ color: #FFFFFF;
        background: #FFC740;
 }
 
-.item-2 {
-    width: 30%;
-}
-
 .item-text-2 {
     margin-left: 0;
 }
 
+.content_2 {
+    display: block;
+    margin: 0 auto;
+    margin-top: 32px;
+    max-width: 961px;
+}
+
+.item-2 {
+    vertical-align: top;
+    width: 30%;
+    height: 180px;
+    margin: 0 auto;
+    margin-left: 1.5%;
+}
+
 .cline_2 {
     width: 27%;
-    max-width: 295px;
+    max-width: 288px;
+}
+
+.wraper-article {
+    display: block;
+    width: 100%;
+}
+
+.items-text {
+    display: inline-block;
+    width: 99%;
+    max-width: 180px;
+}
+
+.little_photo {
+    position: absolute;
+    margin-top: 35px;
+    width: 40px;
+    height: 40px;
+    padding: 1px;
+    border: 1px solid grey;
+}
+
+.lorem {
+    position: absolute;
+    margin-left: 10%;
+    margin-top: 16px;
+}
+
+.item-text-3 {
+    position: absolute;
+    height: 29px;
+    margin-left: 5%;
+    margin-top: 32px;
+    max-width: 150px;
 }
 
 .clients-bottom {
@@ -357,22 +402,4 @@ h4 {
     font-size: 12px;
     line-height: 14px;
     color: #000000;
-}
-
-.item-text-3 {
-    position: absolute;
-    height: 29px;
-    
-    font-family: Roboto, sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 12px;
-    line-height: 14px;
-    text-align: justify;
-    color: #000000;
-}
-
-.items-text-foto {
-    display: inline-block;
-    margin-left: 4%;
 }
