@@ -283,6 +283,7 @@ color: #FFFFFF;
 
 .item-text-2 {
     margin-left: 0;
+    max-width: 288px;
 }
 
 .content_2 {
@@ -294,14 +295,13 @@ color: #FFFFFF;
 
 .item-2 {
     vertical-align: top;
-    width: 30%;
-    height: 180px;
+    width: 31%;
     margin: 0 auto;
     margin-left: 1.5%;
 }
 
 .cline_2 {
-    width: 30%;
+    width: 31%;
     max-width: 288px;
 }
 
@@ -311,7 +311,7 @@ color: #FFFFFF;
 }
 
 .items-text {
-    display: inline-block;
+    display: block;
     width: 99%;
     max-width: 180px;
 }
@@ -321,22 +321,21 @@ color: #FFFFFF;
     margin-top: 35px;
     width: 40px;
     height: 40px;
-    padding: 1px;
     border: 1px solid grey;
 }
 
 .lorem {
     position: absolute;
-    margin-left: 10%;
-    margin-top: 16px;
+    margin-left: 55px;
+    margin-top: 32px;
 }
 
 .item-text-3 {
     position: absolute;
-    height: 29px;
-    margin-left: 5%;
-    margin-top: 32px;
-    max-width: 150px;
+    margin-left: 55px;
+    margin-top: 46px;
+    width: 18%;
+    max-width: 232px;
 }
 
 .clients-bottom {
@@ -352,8 +351,8 @@ color: #FFFFFF;
 }
 
 .cline_3 {
-    width: 100%;
-    max-width: 900px;
+    width: 97%;
+    max-width: 924px;
 }
 
 .clients-img {
@@ -385,7 +384,6 @@ color: #FFFFFF;
     vertical-align: middle;
     display: table-cell;
     text-align: center;
-    vertical-align: middle;
 }
 
 .lodoss {
