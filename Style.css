@@ -4,14 +4,15 @@
 
 body {
     margin: 0px;
+    border-top: 5px solid #9B51E0;
 }
 
 .wrap {
     max-width: 1260px;
-    width: 100%;item
-    background: #FFFFFF;;
+    width: 100%;
+    background: #FFFFFF;
     margin: auto;
-    border-top: 5px solid #9B51E0;
+
 }
 
 .header {
@@ -131,7 +132,6 @@ body {
 font-weight: bold;
 color: #FFFFFF;
 }
-
 
 .frame {
     display: block;
@@ -288,7 +288,7 @@ color: #FFFFFF;
 .content_2 {
     display: block;
     margin: 0 auto;
-    margin-top: 32px;
+    margin-top: 16px;
     max-width: 961px;
 }
 
@@ -301,7 +301,7 @@ color: #FFFFFF;
 }
 
 .cline_2 {
-    width: 27%;
+    width: 30%;
     max-width: 288px;
 }
 
@@ -340,16 +340,20 @@ color: #FFFFFF;
 }
 
 .clients-bottom {
-    max-width: 900px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 32px;
+    max-width: 961px;
 }
 
 .clients-header {
-
+    max-width: 961px;
+    margin-left: 1.5%;
 }
 
 .cline_3 {
     width: 100%;
-    max-width: 928px;
+    max-width: 900px;
 }
 
 .clients-img {
@@ -366,10 +370,9 @@ color: #FFFFFF;
 }
 
 .bottom {
-    position: absolute;
+    display: table;
     margin-top: 32px;
-    width: 1260px;
-    max-width: 1260px;
+    width: 100%;
     height: 115px;
     text-align: center;
     background: #6D3D99;
@@ -377,12 +380,16 @@ color: #FFFFFF;
 }
 
 .lds-wrap {
-    position: absolute;
-    margin-top: 50px;
-    margin-left: 45%;
+    width: 100%;
+    margin: 0 auto;
+    vertical-align: middle;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
 }
 
 .lodoss {
+    margin: 0 auto;
     text-decoration: none;
     font-family: Roboto, sans-serif;
     font-style: normal;
