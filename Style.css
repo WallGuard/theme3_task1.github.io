@@ -125,8 +125,8 @@ body {
 }
 
 .chosen {
-font-weight: bold;
-color: #FFFFFF;
+    font-weight: bold;
+    color: #FFFFFF;
 }
 
 .frame {
@@ -401,4 +401,3 @@ color: #FFFFFF;
     line-height: 16px;
     color:white;
 }
-
