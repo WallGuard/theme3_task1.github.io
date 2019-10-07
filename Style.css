@@ -10,7 +10,7 @@ body {
     font-weight: normal;
 }
 
-.wrap {
+.wrapper {
     max-width: 1260px;
     width: 100%;
     background: #FFFFFF;
@@ -21,7 +21,6 @@ body {
 .header {
     width: 100%;
     max-width: 980px;
-    padding: 15px;
     margin: 0 auto;
     content: "";
     display: table;
@@ -32,7 +31,7 @@ body {
     float: left;
 }
 
-.logo_yellow-box {
+.logo__box {
     position: absolute;
     width: 50px;
     height: 48px;
@@ -44,7 +43,7 @@ body {
     box-sizing: border-box;
 }
 
-.logo_text {
+.logo__text {
     position: absolute;
     margin-left: 26px;
     margin-top: 41px;
@@ -66,7 +65,7 @@ body {
     border: 1px solid #6D3D99;
 }
 
-.search_input {
+.search__input {
     width: 159px;
     height: 31px;
     border: none;
@@ -74,7 +73,7 @@ body {
     background: #FFFFFF;
 }
 
-.search_btn {
+.search__btn {
     position: absolute;
     width: 40px;
     height: 31px;
@@ -87,17 +86,17 @@ body {
     color: #FFFFFF;
 }  
 
-.articles {
+.menu-bar {
     margin-top: 94px;
 }
 
-.list {
+.menu {
     list-style: none;
     margin: 0;
     padding-left: 0;
 }
 
-.article {
+.menu__item {
     display: inline-block;
     text-align: center;
     margin-right: -5px;
@@ -106,7 +105,7 @@ body {
     background: #FFFFFF;
 }
 
-.link {
+.menu__link {
     display: inline-block;
     text-decoration: none;
     text-align: center;
@@ -119,17 +118,17 @@ body {
 
 }
 
-.home {
+.menu__item-home {
     background: #FFC740;
     margin-left: 1px;
 }
 
-.chosen {
+.menu__link-active {
     font-weight: bold;
     color: #FFFFFF;
 }
 
-.frame {
+.header-frame {
     display: block;
     margin: 0 auto;
     height: 332px;
@@ -138,7 +137,7 @@ body {
     margin-top: 16px;
 }
 
-.img-field {
+.frame__img {
     display: inline-block;
     position: absolute;
     height: 332px;
@@ -147,7 +146,7 @@ body {
     background: url(./img/Mountains-and-hills-julian-alps.jpg)
 }
 
-.insign_1 {
+.frame__article {
     position: absolute;
     width: 528px;
     height: 150px;
@@ -160,7 +159,7 @@ body {
     color: #FFC740;
 }
 
-.sign_2 {
+.frame__paragraf {
     position: absolute;
     width: 451px;
     margin-top: 175px;
@@ -171,7 +170,7 @@ body {
     color: #FFFFFF;
 }
 
-.read_btn {
+.frame__btn {
     position: absolute;
     list-style: none;
     width: 125px;
@@ -182,7 +181,7 @@ body {
     background: #6D3D99;
 }
 
-.read_link {
+.frame__btn-link {
     display: inline-block;
     margin-top: 10px;
     text-decoration: none;
@@ -193,28 +192,28 @@ body {
     color: #FFFFFF;
 }
 
-.content_1 {
+.main-content {
     display: block;
     margin: 0 auto;
     margin-top: 32px;
     max-width: 961px;
 }
 
-.first_line_con {
+.content {
     max-width: 960px;
     width: 99%;
     margin: 0 auto;
     margin-left: 1.5%;
 }
 
-.item {
+.content-item {
     display: inline-block;
     width: 47%;
     height: 200px;
     margin-right: 20px;
 }
 
-.color-line {
+.item__line {
     position: absolute;
     width: 46.5%;
     max-width: 448px;
@@ -222,7 +221,7 @@ body {
 
     background: #9B51E0;
 }
-.asl {
+.item__article {
     position: absolute;
     margin-top: 0px;
     margin-left: 16px;
@@ -237,7 +236,7 @@ body {
     color: #000000;
 }
 
-.foto {
+.item__img {
     position: absolute;
     margin-top: 32px;
     width: 138px;
@@ -246,7 +245,7 @@ body {
     border: 2px solid #FFC740;
 }
 
-.item-text {
+.item__text {
     margin-left: 172px;
     margin-top: 32px;
     max-width: 300px;
@@ -257,7 +256,7 @@ body {
     color: #000000;
 }
 
-.read_more {
+.item__link {
     margin-left: 171px;
     position: absolute;
     height: 15px;
@@ -273,7 +272,7 @@ body {
     margin-top: 8px;
 }
 
-.first_line {
+.second-item {
     margin-right: 0;
 }
 
@@ -281,19 +280,19 @@ body {
        background: #FFC740;
 }
 
-.item-text-2 {
+.item__text-2 {
     margin-left: 0;
     max-width: 288px;
 }
 
-.content_2 {
+.content-2 {
     display: block;
     margin: 0 auto;
     margin-top: 16px;
     max-width: 961px;
 }
 
-.item-2 {
+.content-item-2 {
     vertical-align: top;
     width: 31%;
     margin: 0 auto;
@@ -310,7 +309,7 @@ body {
     width: 100%;
 }
 
-.items-text {
+.little-item {
     display: inline-block;
     margin-top: 32px;
     width: 99%;
@@ -345,7 +344,7 @@ body {
     max-width: 232px;
 }
 
-.clients-bottom {
+.clients {
     display: block;
     margin: 0 auto;
     margin-top: 32px;
@@ -362,7 +361,7 @@ body {
     max-width: 924px;
 }
 
-.clients-img {
+.clients-logo {
     margin-top: 24px;
     width: 100%;
     max-width: 928px;
@@ -370,7 +369,7 @@ body {
     text-align: center;
 }
 
-.clients-photo {
+.clients-logo__img {
     display: inline-block;
     margin-left: 16px;
 }
@@ -385,7 +384,7 @@ body {
 
 }
 
-.lds-wrap {
+.copyright-wrap {
     width: 100%;
     margin: 0 auto;
     vertical-align: middle;
@@ -393,7 +392,7 @@ body {
     text-align: center;
 }
 
-.lodoss {
+.copyright__link {
     margin: 0 auto;
     text-decoration: none;
     font-weight: bold;
