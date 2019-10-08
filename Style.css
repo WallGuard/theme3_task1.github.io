@@ -1,3 +1,5 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto&display=swap);
+
 *, ::before, ::after {
     box-sizing: inherit;
 }
@@ -118,12 +120,12 @@ body {
 
 }
 
-.menu__item-home {
+.menu__item_active {
     background: #FFC740;
     margin-left: 1px;
 }
 
-.menu__link-active {
+.menu__link_active {
     font-weight: bold;
     color: #FFFFFF;
 }
@@ -228,7 +230,7 @@ body {
     padding-left: 4px;
     padding-right: 6px;
     background-color: #FFFFFF;
-    height: 17px;
+    border-top: 1px solid white;
 
     font-weight: bold;
     font-size: 14px;
