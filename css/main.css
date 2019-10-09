@@ -1,0 +1,401 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto&display=swap);
+
+*, ::before, ::after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0px;
+    border-top: 5px solid #9B51E0;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+}
+
+.wrapper {
+    max-width: 980px;
+    width: 100%;
+    background: #FFFFFF;
+    margin: auto;
+
+}
+
+.header {
+    width: 100%;
+    max-width: 980px;
+    margin: 0 auto;
+}
+
+.logo {
+    width: 170px;
+    height: 48px;
+    margin-top: 30px;
+}
+
+.logo__box {
+    position: absolute;
+    width: 50px;
+    height: 48px;
+    margin-left: 1px;
+
+    background: #FFFFFF;
+    border: 3px solid #FFC740;
+    box-sizing: border-box;
+}
+
+.logo__text {
+    position: absolute;
+    margin-left: 26px;
+    margin-top: 11px;
+    background-color: #FFFFFF;
+
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.search {
+    width: 201px;
+    height: 33px;
+    margin-top: 38px;
+    box-sizing: border-box;
+    background: #FFFFFF;
+    border: 1px solid #6D3D99;
+}
+
+.search__input {
+    width: 159px;
+    height: 31px;
+    border: none;
+    outline: none;
+    background: #FFFFFF;
+}
+
+.search__btn {
+    position: absolute;
+    width: 40px;
+    height: 31px;
+    border: none;
+    background: #9B51E0;
+
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+}  
+
+.menu-bar {
+    width: 100%;
+    max-width: 980px;
+    margin: 0 auto;
+    margin-top: 24px;
+}
+
+.menu {
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+}
+
+.menu__item {
+    text-align: center;
+    height: 47px;
+}
+
+.menu__link {
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    margin-top: 16px;
+
+    font-size: 14px;
+    line-height: 16px;
+
+    color: #050505;
+
+}
+
+.menu__item_active {
+    background: #FFC740;
+    margin-left: 1px;
+}
+
+.menu__link_active {
+    font-weight: bold;
+    color: #FFFFFF;
+}
+
+.header-frame {
+    display: block;
+    margin: 0 auto;
+    height: 332px;
+    width: 100%;
+    max-width: 980px;
+    margin-top: 16px;
+}
+
+.frame__img {
+    position: absolute;
+    background-size: cover;
+    background-position: 0 100%;
+    height: 332px;
+    width: 100%;
+    max-width: 980px;
+    background-repeat: no-repeat;
+    background-image: url(../img/Mountains-and-hills-julian-alps.jpg)
+}
+
+.frame__article {
+    position: absolute;
+    width: 528px;
+    height: 150px;
+    margin-left: 42px;
+    margin-top: 18px;
+
+    font-weight: normal;
+    font-size: 64px;
+    line-height: 75px;
+    color: #FFC740;
+}
+
+.frame__paragraf {
+    position: absolute;
+    width: 451px;
+    margin-top: 175px;
+    margin-left: 42px;
+
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+}
+
+.frame__btn {
+    position: absolute;
+    list-style: none;
+    width: 125px;
+    height: 34px;
+    margin-top: 262px;
+    margin-left: 42px;
+    text-align: center;
+    background: #6D3D99;
+}
+
+.frame__btn-link {
+    display: inline-block;
+    margin-top: 10px;
+    text-decoration: none;
+
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+}
+
+.main-content {
+    display: block;
+    margin: 0 auto;
+    margin-top: 32px;
+    max-width: 961px;
+}
+
+.content {
+    max-width: 960px;
+    width: 99%;
+    margin: 0 auto;
+    margin-left: 1.5%;
+}
+
+.content-item {
+    display: inline-block;
+    width: 47%;
+    height: 200px;
+    margin-right: 20px;
+}
+
+.item__line {
+    position: absolute;
+    width: 46.5%;
+    max-width: 448px;
+    height: 16px;
+
+    background: #9B51E0;
+}
+.item__article {
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 16px;
+    padding-left: 4px;
+    padding-right: 6px;
+    background-color: #FFFFFF;
+    border-top: 1px solid white;
+
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    color: #000000;
+}
+
+.item__img {
+    position: absolute;
+    margin-top: 32px;
+    width: 138px;
+    height: 137px;
+    padding: 2px;
+    border: 2px solid #FFC740;
+}
+
+.item__text {
+    margin-left: 172px;
+    margin-top: 32px;
+    max-width: 300px;
+
+    font-size: 12px;
+    line-height: 14px;
+    text-align: justify;
+    color: #000000;
+}
+
+.item__link {
+    margin-left: 171px;
+    position: absolute;
+    height: 15px;
+
+
+    font-size: 12px;
+    line-height: 14px;
+    color: #000000;
+}
+
+.r_m2 {
+    margin-left: 0;
+    margin-top: 8px;
+}
+
+.second-item {
+    margin-right: 0;
+}
+
+.line-2 {
+       background: #FFC740;
+}
+
+.item__text-2 {
+    margin-left: 0;
+    max-width: 288px;
+}
+
+.content-2 {
+    display: block;
+    margin: 0 auto;
+    margin-top: 16px;
+    max-width: 961px;
+}
+
+.content-item-2 {
+    vertical-align: top;
+    width: 31%;
+    margin: 0 auto;
+    margin-left: 1.5%;
+}
+
+.cline_2 {
+    width: 31%;
+    max-width: 288px;
+}
+
+.wraper-article {
+    display: block;
+    width: 100%;
+}
+
+.little-item {
+    display: inline-block;
+    margin-top: 32px;
+    width: 99%;
+    min-height: 16px;
+    max-width: 288px;
+}
+
+.little_photo {
+    position: absolute;
+    margin-top: 0;
+    width: 40px;
+    height: 40px;
+    border: 1px solid grey;
+}
+
+.lorem {
+    position: absolute;
+    margin-left: 55px;
+    margin-top: 0px;
+    height: 15px;
+
+    font-size: 12px;
+    line-height: 14px;
+    color: #000000;
+}
+
+.item-text-3 {
+    position: absolute;
+    margin-left: 55px;
+    margin-top: 15px;
+    width: 23%;
+    max-width: 232px;
+}
+
+.clients {
+    display: block;
+    margin: 0 auto;
+    margin-top: 32px;
+    max-width: 961px;
+}
+
+.clients-header {
+    max-width: 961px;
+    margin-left: 1.5%;
+}
+
+.cline_3 {
+    width: 97%;
+    max-width: 924px;
+}
+
+.clients-logo {
+    margin-top: 24px;
+    width: 100%;
+    max-width: 928px;
+    display: inline-block;
+    text-align: center;
+}
+
+.clients-logo__img {
+    display: inline-block;
+    margin-left: 16px;
+}
+
+.bottom {
+    display: table;
+    margin-top: 32px;
+    width: 100%;
+    height: 115px;
+    text-align: center;
+    background: #6D3D99;
+
+}
+
+.copyright-wrap {
+    width: 100%;
+    margin: 0 auto;
+    vertical-align: middle;
+    display: table-cell;
+    text-align: center;
+}
+
+.copyright__link {
+    margin: 0 auto;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    color:white;
+}
