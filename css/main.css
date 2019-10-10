@@ -125,7 +125,6 @@ body {
 }
 
 .header-frame {
-    display: block;
     margin: 0 auto;
     min-height: 332px;
     width: 100%;
@@ -133,13 +132,12 @@ body {
     margin-top: 16px;
 
     background-size: cover;
-    background-position: 0 100%;
+    background-position: center;
     background-repeat: no-repeat;
     background-image: url(../img/Mountains-and-hills-julian-alps.jpg)
 }
 
 .frame__article {
-    
     max-width: 560px;
     margin-left: 3.2%;
     margin-top: 18px;
@@ -156,6 +154,7 @@ body {
 
     font-size: 14px;
     line-height: 16px;
+    text-shadow: 1px 1px 1px #000000;
     color: #FFFFFF;
 }
 
@@ -166,17 +165,32 @@ body {
     margin-left: 3.2%;
     text-align: center;
     background: #6D3D99;
+    cursor: pointer;
+}
+
+.frame__btn:hover {
+    background: #6D3DBB;
+    box-shadow: 2px 2px 8px 1px #6D3D77;
+}
+
+.frame__btn:active {
+    inset: 1px 2px 4px 5px;
 }
 
 .frame__btn-link {
     display: inline-block;
+    height: 100%;
     margin-top: 10px;
-    text-decoration: none;
+
 
     font-weight: bold;
     font-size: 14px;
     line-height: 16px;
     color: #FFFFFF;
+}
+
+.frame__btn-link:hover {
+    text-decoration: none;   
 }
 
 .main-content {
@@ -194,6 +208,9 @@ body {
 .content-item {
     width: 47%;
     min-height: 230px;
+}
+
+.header-item {
 }
 
 .item__line {
@@ -219,6 +236,10 @@ body {
     color: #000000;
 }
 
+.item-block {
+
+}
+
 .item__img {
     position: absolute;
     margin-top: 32px;
@@ -226,6 +247,10 @@ body {
     height: 137px;
     padding: 2px;
     border: 2px solid #FFC740;
+}
+
+.item-block-text {
+
 }
 
 .item__text {
