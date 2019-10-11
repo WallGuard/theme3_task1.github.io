@@ -1,0 +1,10 @@
+{
+    "parserOptions": {
+        "ecmaVersion": 7
+    },
+    "rules": {
+        "printWidth": 80,
+        "tabWidth": 2,
+        "semi": 2
+    }
+}
