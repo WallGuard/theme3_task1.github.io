@@ -140,9 +140,7 @@ body {
     color: #FFFFFF;
 }
 
-.header-frame {
-    justify-content: flex-start;
-    align-content: center;
+.header-frame { 
     margin: 0 auto;
     min-height: 400px;
     width: 100%;
@@ -367,6 +365,12 @@ body {
     line-height: 1.1;
 }
 
+.header-item-clients {
+    display: block;
+    width: 97%;
+    margin: 0 auto;
+}
+
 .clients {
     margin: 0 auto;
     margin-top: 32px;
@@ -443,17 +447,133 @@ body {
     }
 
     .menu-bar {
-    display: block;
-    margin-bottom: 16px;
-    background-color: #FFF;
+        display: block;
+        max-width: 100%;
+        margin-bottom: 16px;
+        background-color: #FFF;
+    }
+
+    .menu {
+        max-width: 980px;
+        list-style: none;
+        margin: 0 auto;
+        padding-left: 0;
     }
 
     .header-frame {
-    min-height: 324px;
+        min-height: 324px;
     }
 
     .frame__article {
     margin-top: 18px;
     }
 
+}
+
+@media (max-width: 1200px) {
+    .wrapper {
+        max-width: 980px;
+    }
+}
+
+@media (max-width: 768px) {
+    .frame__article {
+        margin: 0 auto;
+        text-align: center;
+        font-size: 56px;
+    }
+
+    .frame__paragraf {
+        margin: 0 auto;
+        text-align: justify;
+    }
+
+    .frame__btn {
+        list-style: none;
+        width: 125px;
+        height: 34px;
+        margin: 10px auto;
+        text-align: center;
+        background: #6D3D99;
+        cursor: pointer;
+    }
+}
+
+@media (max-width: 576px) {
+    .header {
+        position: sticky;
+        top: 0px;
+        margin: 0 auto;
+        padding-bottom: 8px;
+    }
+
+    .logo {
+        margin-top: 8px;
+    }
+
+    .search {
+        margin-top: 16px;
+    }
+
+    .menu-bar {
+        display: none;
+    }
+
+    .frame__article {
+        padding: 0 10px;
+        margin-bottom: 12px;
+        font-size: 56px;
+        line-height: 54px;
+    }
+
+    .frame__paragraf {
+        padding: 0 10px;
+    }
+
+    .content {
+        flex-direction: column;
+    }
+
+    .header-item {
+        margin-bottom: 8px;
+    }
+
+    .item__line {
+        max-width: 370px;
+        width: 90%;
+    }
+
+    .content-item {
+        margin: 0 auto;
+        margin-bottom: 16px;
+        width: 90%
+    }
+
+    .content-2 {
+        flex-direction: column;
+    }
+
+    .content-item-2 {
+        width: 60%;
+        margin-bottom: 12px;
+    }
+
+    .cline_2 {
+        width: 60%;
+        max-width: 362px;
+    }
+
+    .item__text-2 {
+        max-width: 100%;
+    }
+
+    .cline_3 {
+
+    } 
+}
+
+@media (max-width: 400px) {
+    .search {
+        display: none;
+    }
 }
