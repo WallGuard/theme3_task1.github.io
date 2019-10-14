@@ -13,6 +13,7 @@
 <body>
     <div class="wrapper">
         <header class="header row justify-content-between sticky-top">
+            <a class="mini-menu">☰<a>
             <div class="logo">
                 <span class="logo__box"></span>
                 <p class="logo__text">SUPER LOGO</p>
@@ -209,14 +210,40 @@
                 <img src="img/logo-mysql.jpg" alt="MySQL logo" class="clients-logo__img">
             </div>
         </div>
+        <div class="media d-flex flex-column">
+            <div class="header-item header-item-clients d-flex">
+                <span class="item__line cline_3" style="margin-bottom: 12px">
+                    <p class="item__article">OUR MEDIA</p>
+                </span>
+            </div>
+            <div class="media-files d-flex justify-content-center">
+                <div class="media-files-video row justify-content-around">
+                    <video class="media-files-video__item" src="" poster="img/logo-html.jpg" controls="controls" width="200" height="150">
+                        <source src="" type="">
+                    </video>
+                    <video  class="media-files-video__item" src="" poster="img/logo-html.jpg" controls="controls" width="200" height="150">
+                        <source src="" type="">
+                    </video>
+                    <video  class="media-files-video__item" src="" poster="img/logo-html.jpg" controls="controls" width="200" height="150">
+                        <source src="" type="">
+                    </video>
+                </div>
+                <div class="media-files-audio row justify-content-center">
+                    <audio  class="media-files-audio__item" controls="controls">
+                        <source src="" type="">
+                    </audio>
+                    <audio   class="media-files-audio__item" controls="controls">
+                        <source src="" type="">
+                    </audio>
+                </div>
+            </div>
+        </div>
     </div>
     <footer class="bottom d-flex">
         <div class="copyright-wrap d-flex">
             <p class="copyright__cp">Copyright ©&#160;</p><a href="#" class="copyright__cp copyright__cp-link">Lodoss Team 2018</a>
         </div>
     </footer>
-
-    <script src="js/bootstrap.min.js"></script>
 </body>
 
 </html>

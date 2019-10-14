@@ -8,7 +8,7 @@ const CleanWebpackPlugin = require('clean-webpack-plugin');
 const CopyWebpackPlugin = require('copy-webpack-plugin');
 
 module.exports = {
-    devtool: 'eval', //devtool: 'eval', // Enable to debug js code
+    devtool: 'eval',
     entry: { 
             app: [
                 './src/index.js',
@@ -21,10 +21,8 @@ module.exports = {
         filename: devMode ? '[name].js' : '[name].[chunkhash].js',
     },
     plugins: [
-        new CleanWebpackPlugin(['dist']), // clean folder 'dist'
+        new CleanWebpackPlugin(['dist']),
         new MiniCssExtractPlugin({
-        // Options similar to the same options in webpackOptions.output
-        // both options are optional
         filename: devMode ? '[name].css' : '[name].[contenthash].css',
         chunkFilename: devMode ? '[id].css' : '[id].[contenthash].css',
         }),
@@ -58,7 +56,7 @@ module.exports = {
             enforce: "pre",
             test: /\.js$/,
             exclude: /node_modules/,
-            loader: "eslint-loader", // enable eslint
+            loader: "eslint-loader",
             options: {
                 fix: true
             }
